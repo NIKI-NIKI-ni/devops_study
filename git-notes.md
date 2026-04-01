@@ -18,3 +18,22 @@ git push #Обновить GitHub
 ##Синхронизация между двумя PC
 
 git pull  #Забрать последние изменения из GitHub
+
+##Все основные команды:
+
+git init                         #создать репозиторий
+git clone https//:bf/jh/lj.git   #скопировать репо
+git status                       #посмотреть состояние
+git diff                         #посмотреть изменения
+git add                          #добавить файл в staging
+git commit                       #зафиксирорвать изменения
+git push                         #отправить на gitHub 
+git pull                         #Забрать
+git checkout -b                  #создать ветку и переключиться
+git merge                        #слить ветки
+git log --oneline                #история коммитов
+git stash                        #спрятать изменения
+git stash pop                    #вернуть спрятанные изменения
+git commit -m                    #закоммитить уже добавленные изменения  
+git commit -am                   #добавление + коммит уже отслеживаемых файлов
+git commit -amend                #исправитьт последний коммит
