@@ -1,1 +1,1 @@
-# devops_study
+#Мои заметки по DevOps
